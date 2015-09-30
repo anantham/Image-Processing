@@ -1,8 +1,13 @@
-I = imread('app.jpg');
+% I thank
+% http://blogs.mathworks.com/steve/2013/06/25/homomorphic-filtering-part-1/
+% for this code. :D
+
+% read the image
+I = imread('page.png');
 figure, imshow(I);
 
 % the image might be a color image, so we convert it to greyscale
-I = rgb2gray(I);
+%I = rgb2gray(I);
 
 % convert the image to floating-point type from uint8(which is default)
 I = im2double(I);

@@ -11,8 +11,8 @@ import IPython
 # [Source](http://bugra.github.io/work/notes/2014-07-12/discre-fourier-cosine-transform-dft-dct-image-compression/)
 # [My Notes](https://docs.google.com/document/d/1yIDTEsXFkLLV5sLmPHtV8-X3GZ2Oa-X2zYvS1BaXMpw/edit?usp=sharing)
 
-image_url='http://i.imgur.com/8vuLtqi.png'
-
+#image_url='http://i.imgur.com/8vuLtqi.png'
+image_url='file:///C:/Users/Aditya/Pictures/crazygirl.jpg'
 # reads the image from url using PIL and converting it into a numpy array after converted grayscale image.
 def get_image_from_url(image_url='http://i.imgur.com/8vuLtqi.png', size=(128, 128)):
     file_descriptor = urllib2.urlopen(image_url)
