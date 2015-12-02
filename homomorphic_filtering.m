@@ -22,7 +22,7 @@ M = 2*size(I,1) + 1;
 N = 2*size(I,2) + 1;
 
 % standard deviation of the equivalent spatial domain gaussian filter ??
-sigma = 10;
+sigma = 30;
 
 % X and Y are k*k size matrices with 
 % X has column i with all i's (this is true for i = 1,....k

@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import fftpack
-import urllib2
+from urllib.request import urlopen
 import IPython
 
 # [Source](http://bugra.github.io/work/notes/2014-07-12/discre-fourier-cosine-transform-dft-dct-image-compression/)
@@ -15,7 +15,7 @@ import IPython
 image_url='file:///C:/Users/Aditya/Pictures/crazygirl.jpg'
 # reads the image from url using PIL and converting it into a numpy array after converted grayscale image.
 def get_image_from_url(image_url='http://i.imgur.com/8vuLtqi.png', size=(128, 128)):
-    file_descriptor = urllib2.urlopen(image_url)
+    file_descriptor = urlopen(image_url)
     image_file = io.BytesIO(file_descriptor.read())
     image = Image.open(image_file)
     img_color = image.resize(size, 1)
