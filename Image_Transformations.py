@@ -42,7 +42,7 @@ img_after.show()
 print("\n\nSo as we can see larger values closer to 256 is white, smaller values close to 0 are black")
 # if you are confused about the white edges as seen in the image and the numpy array - its because i couldnt crop it properly.
 
-'''
+''' Based on my [Post on Homomorphic filtering](http://adityaarpitha.blogspot.in/2015/10/homomorphic-filtering_7.html)
 Okay so reflectence is what we get after filtering - 'np_image_after' - r(x,y)
 ? or is it, maybe its original-filtered or something?
 
