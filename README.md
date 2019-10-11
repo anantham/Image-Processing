@@ -17,7 +17,7 @@ As you can see the illumination is regular across the image. Thus we have remove
 
 ## DCT
 
-This is the code I got from [here](http://bugra.github.io/work/notes/2014-07-12/discre-fourier-cosine-transform-dft-dct-image-compression/), I used it to get great insight into DCT. I added some comments to understand it better.
+This is the code I got from [here](https://web.archive.org/web/20180711044219/http://bugra.github.io/work/notes/2014-07-12/discre-fourier-cosine-transform-dft-dct-image-compression/), I used it to get great insight into DCT. I added some comments to understand it better.
 
 
 ## Image Transformations
